@@ -1,0 +1,39 @@
+
+FIRST STEP:
+Installation in Windows:
+-	First go to the start menu on and click on run type cmd. 
+-	And then enter
+Install using pip:
+
+>pip install django==2.2       #in cmd command prompt
+
+And then set path by using environment variable or go to the where django installed
+like:
+
+After installation setup path at which you want setup projects by using cd command as:
+
+>C:\Users\naveen kumar\cd path
+
+And run these command to start project
+
+>C:\Users\naveen kumar\CodersArtsProjects\Django>django-admin startproject myproject
+
+And then run these command to start app
+
+>C:\Users\naveen kumar\nawproject\djangoproject\myproject>python manage.py startapp appname
+
+And then after create superuser to set admin password
+
+Set passward:BY  past this in command prompt
+
+>Python manage.py createsuperuser
+
+And then migrate
+
+>python manage.py makemigrate
+>python manage.py migrate
+
+And then last runserver
+
+>Python manage.py runserver
+
